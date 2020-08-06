@@ -31,7 +31,7 @@ export default function Navbar() {
 
     return (
         <div className={classes.root}>
-            <AppBar position="static" style={{ background: "#628395" }}>
+            <AppBar position="static" style={{ background: "#628395" }} >
                 <Toolbar>
                     <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu" onClick={handleClick}>
                         <MenuIcon />
@@ -55,4 +55,4 @@ export default function Navbar() {
             </AppBar>
         </div >
     );
-}
+} 
